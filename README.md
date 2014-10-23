@@ -1,2 +1,4 @@
-coursera-getdata-008
-====================
+coursera-getdata-008 Codebook
+=============================
+
+TODO
