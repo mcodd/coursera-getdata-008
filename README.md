@@ -1,14 +1,14 @@
 # coursera-getdata-008
 
 The `run_analysis.R` script in this repo downloads and tidies the data
-found at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
-The raw data is from accelerometers from the Samsung Galaxy S smartphone.
+found [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
+The raw data is from [accelerometers from the Samsung Galaxy S smartphone](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
 
-The CodeBook.md file here describes the tidy variables, the raw data, and the transformations performed to clean up the data.
+The [CodeBook](https://github.com/mcodd/coursera-getdata-008/blob/master/CodeBook.md) in this repo describes the tidy variables, the raw data, and the transformations performed to clean up the data.
 
 ### Execution instructions
 
-Executing run_analysis.R will download and extract the data if that
+Executing `run_analysis.R` will download and extract the data if that
 has not already been done.  Subsequently, it loads the data and
 then extracts only the measurements on the mean and standard deviation
 for each measurement.  After tidying the data by inserting descriptive
