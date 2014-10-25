@@ -21,11 +21,11 @@ The raw dataset extracts into a directory called `UCI HAR Dataset`.  Within
 that directory are the following files:
 
 * `UCI HAR Dataset`
-** `README.txt` - a description of the raw dataset and how the data was gathered
-** `features.txt` - a list of the 561 variables gathered, mapping their numbers to feature names
-** `features_info.txt` - definitions and descriptions of the 561 variables found in `features.txt`
-** `activity_labels.txt` - a list of the 6 activities performed, mapping their numbers to activity name
-** test and train subdirectories - contain the raw data from the test and training datasets as described in the `README.txt` file
+  * `README.txt` - a description of the raw dataset and how the data was gathered
+  * `features.txt` - a list of the 561 variables gathered, mapping their numbers to feature names
+  * `features_info.txt` - definitions and descriptions of the 561 variables found in `features.txt`
+  * `activity_labels.txt` - a list of the 6 activities performed, mapping their numbers to activity name
+  * test and train subdirectories - contain the raw data from the test and training datasets as described in the `README.txt` file
 
 ### Required libraries
 
