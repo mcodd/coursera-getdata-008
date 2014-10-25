@@ -47,6 +47,11 @@ feature_names<-gsub("\\(\\)","",feature_names)
 feature_names<-gsub("-","_",feature_names)
 # now fix the incorrectly-named variables with the dupe string BodyBody in them
 feature_names<-gsub("BodyBody","Body",feature_names)
+# replace initial "t" with "time" and "f" with "freq" to be more descriptive
+feature_names<-sub("^t","time",feature_names)
+feature_names<-sub("^f","freq",feature_names)
+# now make it all lowercase
+feature_names<-tolower(feature_names)
 
 ####
 # Merge the training and the test sets to create one data frame, including named
