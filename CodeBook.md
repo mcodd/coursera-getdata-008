@@ -1,9 +1,5 @@
 # coursera-getdata-008 codebook
 
-** notes **
-3) a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md
-pull vars for codebook - head -1 getdata-008-project-results.csv | sed -e 's/\"//g'| sed -e 's/ /\'$'\n* /g'| awk '{print $1" *"$2"* - "}'
-
 ## Study Design
 
 The `features.txt` and `activity_labels.txt` files were read in first in order
