@@ -13,7 +13,7 @@ has not already been done.  Subsequently, it loads the data and
 then extracts only the measurements on the mean and standard deviation
 for each measurement.  After tidying the data by inserting descriptive
 activitiy names and variable names, it outputs the tidy dataset to a
-file called `getdata-008-project-results.csv`.
+file called `getdata-008-project-results.txt`.
 
 ### Files in the raw dataset
 

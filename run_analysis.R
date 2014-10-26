@@ -105,5 +105,5 @@ library(reshape2)
 all_data_melt<-melt(all_data,id=c("subject","activityname"))
 all_data_cast<-dcast(all_data_melt, activityname + subject ~ variable, mean)
 # write out the table for uploading a project deliverable
-write.table(all_data_cast, file="getdata-008-project-results.csv",sep=" ",
+write.table(all_data_cast, file="getdata-008-project-results.txt",sep=" ",
             row.names = FALSE)

@@ -16,11 +16,11 @@ The feature names were tidied up by doing the following transformations on their
 
 Once we had a data frame of all the raw data and tidied variable names, we read in the subject and activity files.  These files (`subject_train` and `subject_test` as well as `y_train` and `y_test` respectively) were bound to the existing data frame as the first two columns.  At this point the data frame had all the information necessary to compute the averages we needed.
 
-The averages of each variable for each activity and subject were found using the `reshape2` library's `melt` and `dcast` functions and then written out to a file named `getdata-008-project-results.csv`.
+The averages of each variable for each activity and subject were found using the `reshape2` library's `melt` and `dcast` functions and then written out to a file named `getdata-008-project-results.txt`.
 
 ## Code Book
 
-The following variables are found in the final `getdata-008-project-results.csv`
+The following variables are found in the final `getdata-008-project-results.txt`
 file.  Variables prefixed with 'time' are measured in the time domain where 'freq' are derived in the frequency domain (details of how measurements were derived in the raw data are described in the `features_info.txt` file found in the raw data set).
 
 * **activityname** - the name of the activity being measured (e.g. WALKING, SITTING, etc)
